@@ -1,0 +1,14 @@
+{
+	"category" : "Profiler-Core",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		"TallyObjectCollection" ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "BetterMessageTally",
+	"pools" : [
+		 ],
+	"super" : "MessageTally",
+	"type" : "normal" }

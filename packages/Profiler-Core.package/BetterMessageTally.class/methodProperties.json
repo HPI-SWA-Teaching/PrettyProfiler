@@ -1,0 +1,19 @@
+{
+	"class" : {
+		"initialize" : "MW 5/12/2016 15:12",
+		"showReport:" : "MW 5/21/2016 16:24",
+		"spyOn:" : "MW 5/21/2016 15:53",
+		"spyOn:reportOtherProcesses:" : "MW 5/21/2016 16:20",
+		"tallySendsTo:inBlock:showTree:" : "MW 5/21/2016 16:04" },
+	"instance" : {
+		"calculateTallyObjectForTotal:totalTime:" : "MW 5/15/2016 15:34",
+		"calculateTallyObjectForTotal:totalTime:tallyParent:" : "MW 5/20/2016 14:47",
+		"copyWithTally:" : "MW 5/10/2016 17:41",
+		"rootPrintOn:total:totalTime:threshold:" : "MW 5/21/2016 16:22",
+		"sonsOver:" : "MW 5/10/2016 17:44",
+		"species" : "MW 5/10/2016 17:42",
+		"spyEvery:on:" : "MW 5/10/2016 17:31",
+		"tallyPath:by:" : "MW 5/10/2016 17:43",
+		"tallyPath:in:by:" : "MW 5/12/2016 11:49",
+		"treePrintOn:tabs:thisTab:total:totalTime:tallyExact:orThreshold:" : "MW 5/21/2016 16:04",
+		"treePrintOn:tabs:thisTab:total:totalTime:tallyExact:orThreshold:parentTally:" : "MW 5/21/2016 16:04" } }
