@@ -1,9 +1,11 @@
 {
 	"class" : {
 		"initialize" : "MW 5/12/2016 15:12",
-		"showReport:" : "MW 5/21/2016 16:24",
+		"makeTallyCollection" : "MW 5/23/2016 15:58",
+		"makeTallyCollection:" : "MW 5/23/2016 15:58",
+		"showReport:" : "MW 5/23/2016 15:58",
 		"spyOn:" : "MW 5/21/2016 15:53",
-		"spyOn:reportOtherProcesses:" : "MW 5/21/2016 16:20",
+		"spyOn:reportOtherProcesses:" : "MW 5/23/2016 15:52",
 		"tallySendsTo:inBlock:showTree:" : "MW 5/21/2016 16:04" },
 	"instance" : {
 		"calculateTallyObjectForTotal:totalTime:" : "MW 5/15/2016 15:34",
