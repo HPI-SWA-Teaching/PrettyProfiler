@@ -16,6 +16,6 @@ calculateTallyObjectForTotal: total totalTime: totalTime tallyParent: tallyParen
 							primitive: (receivers = nil);
 							tallyParent: tallyParent).
 	
-	tallyParent tallyChildren add: newTallyObject.
+	tallyParent ifNotNil: [tallyParent tallyChildren add: newTallyObject].
 	
 	^ newTallyObject.

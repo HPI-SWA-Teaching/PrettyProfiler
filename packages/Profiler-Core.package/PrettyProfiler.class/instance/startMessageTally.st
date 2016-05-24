@@ -8,9 +8,6 @@ startMessageTally
 		ifFalse:[
 			self isTallyRunning: true.
 			self stspbutton label: PrettyProfiler stopText.
-			(self confirm: 'MessageTally will start now, and stop when the cursor goes to the top of the screen')
-				ifTrue: [
-					BetterMessageTally spyOn: PrettyProfiler testBlock.
-					self tallyResult: (BetterMessageTally makeTallyCollection)]
-				ifFalse: [self isTallyRunning: false]].
+			BetterMessageTally spyOn: PrettyProfiler testBlock.
+			self tallyResult: (BetterMessageTally makeTallyCollection)]
 	

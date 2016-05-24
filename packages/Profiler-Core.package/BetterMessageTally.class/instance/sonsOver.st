@@ -1,6 +1,6 @@
 comparing
-sonsOver: threshold
-	
+sonsOver
+
 	| hereTally last sons |
 
 	receivers basicSize = 0 ifTrue: [^#()].
@@ -8,8 +8,8 @@ sonsOver: threshold
 	sons := receivers select:  "subtract subNode tallies for primitive hits here"
 		[:son |
 		hereTally := hereTally - son tally.
-		son tally > threshold].
-	hereTally > threshold ifTrue:
+		son tally > 1].
+	hereTally > 1 ifTrue:
 		[last := BetterMessageTally new class: class method: method nesting: blockNesting.
 		 last process: process.
 		 last reportOtherProcesses: reportOtherProcesses.
