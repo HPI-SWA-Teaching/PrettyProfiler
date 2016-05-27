@@ -1,4 +1,4 @@
 accessing
-resultarea: anObject
+resultArea: anObject
 
-	resultarea := anObject
+	resultArea := anObject

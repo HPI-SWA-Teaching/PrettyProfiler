@@ -1,4 +1,4 @@
 accessing
-resultarea
+resultArea
 
-	^ resultarea
+	^ resultArea

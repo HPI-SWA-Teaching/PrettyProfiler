@@ -6,13 +6,9 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"isTallyRunning",
-		"stspbutton",
-		"tallyResult",
-		"resultArea",
-		"detailArea" ],
-	"name" : "PrettyProfiler",
+		"profiler" ],
+	"name" : "TallyCollection",
 	"pools" : [
 		 ],
-	"super" : "SystemWindow",
+	"super" : "OrderedCollection",
 	"type" : "normal" }

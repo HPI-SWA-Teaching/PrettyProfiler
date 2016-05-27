@@ -1,8 +1,8 @@
 spying
-makeTallyCollection
+makeTallyCollection: profiler
 	| wrapperCol |
 		
-	wrapperCol := OrderedCollection new.
+	wrapperCol := TallyCollection new profiler: profiler.
 	
 	TallyObjectCollection do: [:t | (t tallyParent) ifNil: [wrapperCol add: (TallyObjectItemWrapper with: t)]].
 	
