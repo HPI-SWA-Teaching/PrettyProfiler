@@ -4,7 +4,9 @@
 	"instance" : {
 		"blockNesting" : "MW 5/12/2016 15:16",
 		"blockNesting:" : "MW 5/12/2016 15:16",
-		"initialize" : "MW 5/17/2016 16:16",
+		"initialize" : "MW 5/28/2016 16:55",
+		"isBottleneck" : "MW 5/28/2016 16:55",
+		"isBottleneck:" : "MW 5/28/2016 16:55",
 		"percentage" : "MW 5/12/2016 13:35",
 		"percentage:" : "MW 5/12/2016 13:35",
 		"primitive" : "MW 5/15/2016 15:02",
@@ -20,4 +22,6 @@
 		"tallyParentClass" : "MW 5/17/2016 16:11",
 		"tallyParentClass:" : "MW 5/17/2016 16:11",
 		"time" : "MW 5/12/2016 13:35",
-		"time:" : "MW 5/12/2016 13:35" } }
+		"time:" : "MW 5/12/2016 13:35",
+		"totalParents" : "MW 5/28/2016 16:09",
+		"totalParents:" : "MW 5/28/2016 16:09" } }

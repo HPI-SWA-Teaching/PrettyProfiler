@@ -1,12 +1,15 @@
 {
 	"class" : {
 		"initialize" : "MW 5/12/2016 15:12",
-		"makeTallyCollection:" : "AM 5/27/2016 16:14",
+		"makeTallyCollection" : "MW 5/28/2016 16:57",
+		"makeTallyCollection:" : "MW 5/28/2016 17:03",
+		"markBottlenecks" : "MW 5/28/2016 17:13",
+		"markParentsOfBottleneck:" : "MW 5/28/2016 17:14",
 		"spyOn:" : "MW 5/24/2016 11:09",
 		"spyOn:reportOtherProcesses:" : "MW 5/24/2016 11:51",
 		"tallySendsTo:inBlock:showTree:" : "MW 5/24/2016 11:10" },
 	"instance" : {
-		"calculateTallyObjectForTotal:totalTime:tallyParent:" : "MW 5/24/2016 11:16",
+		"calculateTallyObjectForTotal:totalTime:tallyParent:" : "MW 5/28/2016 16:11",
 		"copyWithTally:" : "MW 5/10/2016 17:41",
 		"makeTree" : "MW 5/24/2016 12:08",
 		"rootMakeForTotal:totalTime:" : "MW 5/24/2016 12:08",

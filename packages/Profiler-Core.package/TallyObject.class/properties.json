@@ -13,8 +13,10 @@
 		"tallyClass",
 		"tallyMethod",
 		"primitive",
+		"tallyChildren",
 		"tallyParent",
-		"tallyChildren" ],
+		"totalParents",
+		"isBottleneck" ],
 	"name" : "TallyObject",
 	"pools" : [
 		 ],

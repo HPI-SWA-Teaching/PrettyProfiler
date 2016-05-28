@@ -1,8 +1,8 @@
 spying
-makeTallyCollection: profiler
+makeTallyCollection
 	| wrapperCol |
 		
-	wrapperCol := TallyCollection new profiler: profiler.
+	wrapperCol := OrderedCollection new.
 	
 	self markBottlenecks.
 	
