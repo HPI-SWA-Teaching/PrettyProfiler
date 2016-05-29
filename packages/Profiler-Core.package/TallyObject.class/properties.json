@@ -12,11 +12,11 @@
 		"tallyOuterClass",
 		"tallyClass",
 		"tallyMethod",
-		"primitive",
 		"tallyChildren",
 		"tallyParent",
 		"totalParents",
-		"isBottleneck" ],
+		"isBottleneck",
+		"isPrimitive" ],
 	"name" : "TallyObject",
 	"pools" : [
 		 ],

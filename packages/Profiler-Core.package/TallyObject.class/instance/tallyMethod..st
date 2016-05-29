@@ -1,3 +1,3 @@
 accessing
-tallyMethod: anObject
-	tallyMethod := anObject
+tallyMethod: aMethod
+	tallyMethod := aMethod

@@ -1,3 +1,3 @@
 accessing
-tallyClass: anObject
-	tallyClass := anObject
+tallyClass: aClass
+	tallyClass := aClass

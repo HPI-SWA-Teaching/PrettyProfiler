@@ -1,3 +1,3 @@
 accessing
-percentage: anObject
-	percentage := anObject
+percentage: aFloat
+	percentage := aFloat

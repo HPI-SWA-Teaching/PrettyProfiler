@@ -1,3 +1,3 @@
 accessing
-time: anObject
-	time := anObject
+time: anInteger
+	time := anInteger

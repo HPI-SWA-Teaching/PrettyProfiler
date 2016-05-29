@@ -8,7 +8,7 @@ markBottlenecks
 		ifFalse: [t2]]) totalParents.
 	
 	(TallyObjectCollection select: [:t | t totalParents = maxTotalParents]) do: [:t |
-		((t percentage > 1) and: [t primitive = true])
+		((t percentage > 50) and: [t isPrimitive = false])
 			ifTrue: [t isBottleneck: true.
 				self markParentsOfBottleneck: t]] 
 	

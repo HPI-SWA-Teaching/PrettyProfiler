@@ -1,3 +1,3 @@
 accessing
-isBottleneck: anObject
-	isBottleneck := anObject
+isBottleneck: aBoolean
+	isBottleneck := aBoolean

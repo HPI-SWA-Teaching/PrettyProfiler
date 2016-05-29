@@ -1,3 +1,3 @@
 accessing
-tallyParentClass: anObject
-	tallyOuterClass := anObject
+tallyParentClass: aClass
+	tallyOuterClass := aClass

@@ -1,3 +1,3 @@
 accessing
-tallyChildren: anObject
-	tallyChildren := anObject
+tallyChildren: anOrderedCollection
+	tallyChildren := anOrderedCollection

@@ -28,7 +28,7 @@ initialize
 		clipSubmorphs: true;
 		addMorph: ((StringMorph new)
 		color: Color black;
-		contents: 'EMPTY')).
+		contents: '')).
 
 	resulttitle := (StringMorph new)
 		color: Color white;

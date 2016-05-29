@@ -1,3 +1,3 @@
 accessing
-tallyParent: anObject
-	tallyParent := anObject
+tallyParent: aTallyObject
+	tallyParent := aTallyObject
