@@ -2,7 +2,7 @@ plugging
 list
 
 	^ Array
-		with: ('Percentage: ' , (percentage) asString , '%')
+		with: ('Percentage: ' , (percentage printShowingDecimalPlaces: 2) asString , '%')
 		with: ('Time: ' , (time) asString , 'ms')
 		with: ('BlockNesting: ' , (blockNesting))
 		with: ('Has children: ' , (tallyChildren notNil))

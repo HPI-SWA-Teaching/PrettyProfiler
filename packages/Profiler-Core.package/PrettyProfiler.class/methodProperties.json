@@ -8,7 +8,7 @@
 		"defaultBlock" : "Noel 5/12/2016 03:14",
 		"detailArea" : "AM 5/27/2016 14:50",
 		"detailArea:" : "MW 5/29/2016 21:18",
-		"initialize" : "MW 5/29/2016 21:56",
+		"initialize" : "MW 5/29/2016 23:20",
 		"isTallyRunning" : "Noel 5/12/2016 02:21",
 		"isTallyRunning:" : "MW 5/29/2016 21:20",
 		"resultArea" : "AM 5/27/2016 14:50",
@@ -17,4 +17,5 @@
 		"stspbutton" : "Noel 5/12/2016 02:21",
 		"stspbutton:" : "Noel 5/12/2016 02:21",
 		"tallyResult" : "Noel 5/12/2016 02:46",
-		"tallyResult:" : "Noel 5/12/2016 02:46" } }
+		"tallyResult:" : "Noel 5/12/2016 02:46",
+		"updateDetailArea:" : "MW 5/29/2016 23:20" } }
