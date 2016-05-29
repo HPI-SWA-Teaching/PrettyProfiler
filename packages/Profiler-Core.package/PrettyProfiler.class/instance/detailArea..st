@@ -1,4 +1,4 @@
 accessing
-detailArea: anObject
+detailArea: aPluggableListMorph
 
-	detailArea := anObject
+	detailArea :=  aPluggableListMorph

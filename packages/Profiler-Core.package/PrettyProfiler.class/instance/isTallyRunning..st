@@ -1,4 +1,4 @@
 accessing
-isTallyRunning: anObject
+isTallyRunning: aBoolean
 
-	isTallyRunning := anObject
+	isTallyRunning := aBoolean

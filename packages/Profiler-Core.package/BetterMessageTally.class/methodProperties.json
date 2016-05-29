@@ -1,7 +1,6 @@
 {
 	"class" : {
 		"initialize" : "MW 5/12/2016 15:12",
-		"makeTallyCollection" : "MW 5/28/2016 16:57",
 		"makeTallyCollection:" : "MW 5/28/2016 17:03",
 		"markBottlenecks" : "MW 5/29/2016 19:31",
 		"markParentsOfBottleneck:" : "MW 5/28/2016 17:14",

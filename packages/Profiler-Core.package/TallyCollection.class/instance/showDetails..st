@@ -1,4 +1,9 @@
 as yet unclassified
-showDetails: tallyObject
-
-	profiler detailArea submorphs first contents: tallyObject item percentage asString.
+showDetails: aTallyObjectItemWrapper
+		
+	profiler detailArea: (PluggableListMorph
+		on: (aTallyObjectItemWrapper item)
+		list: #list
+		selected: nil
+		changeSelected: nil
+		menu: nil).

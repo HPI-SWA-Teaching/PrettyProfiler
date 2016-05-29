@@ -22,13 +22,20 @@ initialize
 		changeSelected: nil
 		menu: nil
 		keystroke: nil).
+		
+	self detailArea:  (PluggableListMorph
+		on: nil
+		list: nil
+		selected: nil
+		changeSelected: nil
+		menu: nil).
 	
-	self detailArea: (RectangleMorph new
+	"self detailArea: (RectangleMorph new
 		color: Color white;
 		clipSubmorphs: true;
 		addMorph: ((StringMorph new)
 		color: Color black;
-		contents: '')).
+		contents: ''))."
 
 	resulttitle := (StringMorph new)
 		color: Color white;
