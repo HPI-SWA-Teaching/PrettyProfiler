@@ -7,9 +7,9 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"isTallyRunning",
-		"stspbutton",
+		"runButton",
 		"tallyResult",
-		"resultArea",
+		"resultList",
 		"detailArea" ],
 	"name" : "PrettyProfiler",
 	"pools" : [

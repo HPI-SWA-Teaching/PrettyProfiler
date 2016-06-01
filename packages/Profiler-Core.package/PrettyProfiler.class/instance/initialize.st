@@ -1,52 +1,99 @@
 as yet unclassified
 initialize
-	"alpha hacky stuff"
-	| buttonbar resulttitle |
+	| blockInput tempBar optionBar hListSelector pieSelector tabControls tabbedView resultArea content |
 	super initialize.
-	self isTallyRunning: false.
-	self stspbutton: ((SimpleButtonMorph newWithLabel: PrettyProfiler startText)
+	
+	runButton := (SimpleButtonMorph newWithLabel: '	    Start    ')
+		vResizing: #spaceFill;
 		color: Color white;
 		actWhen: #buttonDown;
 		target: self;
-		actionSelector: #startMessageTally).
+		actionSelector: #toggleMessageTally.
 
-	buttonbar := (RectangleMorph new)
-		color: Color gray;
-		layoutPolicy: ProportionalLayout new;
-		addMorph: self stspbutton fullFrame: (LayoutFrame fractions:(0@0 corner:0.2@1)).
-	
-	self resultArea: (SimpleHierarchicalListMorph
+	blockInput := (TextMorph new)
+		hResizing: #spaceFill;
+		vResizing: #spaceFill.
+
+	tempBar := (Morph new)
+		hResizing: #spaceFill;
+		color: Color white;
+		layoutPolicy: TableLayout new;
+		listDirection: #leftToRight;
+		cellInset: 5;
+		extent: 720@60;
+		clipSubmorphs: true;
+		addMorph: blockInput;
+		addMorph: runButton.
+
+	optionBar := (Morph new)
+		hResizing: #spaceFill;
+		extent: 720@20.
+
+	hListSelector := (SimpleButtonMorph newWithLabel: 'HList')
+		actWhen: #buttonDown;
+		extent:720@25;
+		hResizing: #spaceFill.
+
+	pieSelector := (SimpleButtonMorph newWithLabel: 'PolarPie')
+		actWhen: #buttonDown;
+		extent:720@25;
+		hResizing: #spaceFill.
+
+	tabControls := (Morph new)
+		layoutPolicy: TableLayout new;
+		listDirection: #leftToRight;
+		hResizing: #spaceFill;
+		extent:720@25;
+		addMorph: pieSelector;
+		addMorph: hListSelector.
+
+	resultList := (SimpleHierarchicalListMorph
 		on: nil
 		list: nil
 		selected: nil
 		changeSelected: nil
 		menu: nil
-		keystroke: nil).
-		
-	self detailArea:  (PluggableListMorph
+		keystroke: nil)
+		hResizing: #spaceFill;
+		vResizing: #spaceFill.
+
+	tabbedView := (Morph new)
+		layoutPolicy: TableLayout new;
+		listDirection: #topToBottom;
+		addMorph: resultList;
+		addMorph: tabControls.
+
+	detailArea :=  (PluggableListMorph
 		on: nil
 		list: nil
 		selected: nil
 		changeSelected: nil
 		menu: nil).
-	
-	"self detailArea: (RectangleMorph new
-		color: Color white;
-		clipSubmorphs: true;
-		addMorph: ((StringMorph new)
-		color: Color black;
-		contents: ''))."
 
-	resulttitle := (StringMorph new)
-		color: Color white;
-		contents: 'Results:'.
-	self 
-		extent: 1280@600;
-		clipSubmorphs: true;
+	resultArea := (Morph new)
 		layoutPolicy: ProportionalLayout new;
-		setLabel: 'PrettyProfiler';
-		addMorph: buttonbar fullFrame: (LayoutFrame fractions: (0@0 corner: 1@0.1));
-		addMorph: resulttitle fullFrame: (LayoutFrame fractions: (0@0.1 corner: 1@0.15));
-		addMorph: self resultArea fullFrame: (LayoutFrame fractions: (0@0.15 corner: 0.8@1));
-		addMorph: self detailArea fullFrame: (LayoutFrame fractions: (0.8@0.15 corner: 1@1)).
+		hResizing: #spaceFill;
+		vResizing: #spaceFill;
+		addMorph: detailArea fullFrame: (LayoutFrame fractions: (0.75@0 corner: 1@1));
+		addMorph: tabbedView fullFrame: (LayoutFrame fractions: (0@0 corner: 0.75@1)).
+	
+	content := (Morph new)
+		clipSubmorphs: true;
+		layoutPolicy: TableLayout new;
+		listDirection: #topToBottom;
+		cellInset: 20;
+		hResizing: #spaceFill;
+		vResizing: #spaceFill;
+		addMorph: resultArea;
+		addMorph: optionBar;
+		addMorph: tempBar.
 
+	self extent: 1280@600;
+		layoutPolicy: ProportionalLayout new;
+		listDirection: #bottomToTop;
+		clipSubmorphs: true;
+		color: (Color gray);
+		setLabel: 'PrettyProfiler';
+		addMorph: content fullFrame: (LayoutFrame fractions: (0@0.05 corner: 1@1)).
+
+	self isTallyRunning: false.

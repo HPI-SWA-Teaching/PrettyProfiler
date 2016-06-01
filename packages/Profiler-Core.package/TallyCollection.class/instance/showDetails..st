@@ -1,9 +1,10 @@
 as yet unclassified
 showDetails: aTallyObjectItemWrapper
 	
-	profiler updateDetailArea: (PluggableListMorph
+	profiler detailArea
 		on: (aTallyObjectItemWrapper item)
 		list: #list
 		selected: nil
 		changeSelected: nil
-		menu: nil).
+		menu: nil
+		keystroke: nil.
