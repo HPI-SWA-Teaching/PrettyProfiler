@@ -12,7 +12,13 @@ initialize
 
 	blockInput := (TextMorph new)
 		hResizing: #spaceFill;
-		vResizing: #spaceFill.
+		vResizing: #spaceFill;
+		contents: 'Block'.
+	
+	timeoutInput := (TextMorph new)
+		hResizing: #spaceFill;
+		vResizing: #spaceFill;
+		contents: 'Timeout'.
 
 	tempBar := (Morph new)
 		hResizing: #spaceFill;
@@ -27,7 +33,13 @@ initialize
 
 	optionBar := (Morph new)
 		hResizing: #spaceFill;
-		extent: 720@20.
+		color: Color white;
+		layoutPolicy: TableLayout new;
+		listDirection: #leftToRight;
+		cellInset: 5;
+		extent: 720@20;
+		clipSubmorphs: true;
+		addMorph: timeoutInput.
 
 	hListSelector := (SimpleButtonMorph newWithLabel: 'HList')
 		actWhen: #buttonDown;
@@ -79,6 +91,7 @@ initialize
 	
 	content := (Morph new)
 		clipSubmorphs: true;
+		color: (Color lightGray);
 		layoutPolicy: TableLayout new;
 		listDirection: #topToBottom;
 		cellInset: 20;
@@ -92,7 +105,6 @@ initialize
 		layoutPolicy: ProportionalLayout new;
 		listDirection: #bottomToTop;
 		clipSubmorphs: true;
-		color: (Color gray);
 		setLabel: 'PrettyProfiler';
 		addMorph: content fullFrame: (LayoutFrame fractions: (0@0.05 corner: 1@1)).
 

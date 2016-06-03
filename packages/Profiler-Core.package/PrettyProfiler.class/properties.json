@@ -8,6 +8,8 @@
 	"instvars" : [
 		"isTallyRunning",
 		"runButton",
+		"blockInput",
+		"timeoutInput",
 		"tallyResult",
 		"resultList",
 		"detailArea" ],
