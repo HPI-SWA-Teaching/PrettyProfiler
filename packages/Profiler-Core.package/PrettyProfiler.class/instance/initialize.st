@@ -1,8 +1,8 @@
 as yet unclassified
 initialize
-	| blockInput tempBar optionBar hListSelector pieSelector tabControls tabbedView resultArea content |
+	| tempBar optionBar hListSelector pieSelector tabControls tabbedView resultArea content |
 	super initialize.
-	
+
 	runButton := (SimpleButtonMorph newWithLabel: '	    Start    ')
 		vResizing: #spaceFill;
 		color: Color white;

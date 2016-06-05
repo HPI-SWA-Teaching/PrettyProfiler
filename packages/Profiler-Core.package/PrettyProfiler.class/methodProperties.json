@@ -5,8 +5,11 @@
 		"stopText" : "Noel 5/12/2016 02:28",
 		"testBlock" : "MW 5/23/2016 15:46" },
 	"instance" : {
+		"block" : "AM 6/5/2016 18:45",
 		"detailArea" : "AM 5/27/2016 14:50",
-		"initialize" : "AM 6/3/2016 13:28",
+		"initialize" : "AM 6/5/2016 18:41",
 		"isTallyRunning" : "Noel 5/12/2016 02:21",
-		"isTallyRunning:" : "AM 6/3/2016 13:37",
+		"isTallyRunning:" : "AM 6/5/2016 18:34",
+		"runWithTimeout:" : "AM 6/5/2016 18:35",
+		"runWithoutTimeout" : "AM 6/5/2016 18:33",
 		"toggleMessageTally" : "AM 6/1/2016 23:24" } }
