@@ -1,6 +1,6 @@
 as yet unclassified
 initialize
-	| tempBar optionBar hListSelector pieSelector tabControls tabbedView resultArea content |
+	| tempBar optionBar hListSelector pieSelector tabControls tabbedView resultArea content timeOutInputLabel |
 	super initialize.
 
 	runButton := (SimpleButtonMorph newWithLabel: '	    Start    ')
@@ -10,16 +10,18 @@ initialize
 		target: self;
 		actionSelector: #toggleMessageTally.
 
-	blockInput := (TextMorph new)
-		hResizing: #spaceFill;
-		vResizing: #spaceFill;
-		contents: 'Block'.
+	blockInput := PPTextInput new.
 	
 	timeoutInput := (TextMorph new)
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
-		contents: 'Timeout'.
-
+		contents: '0'.
+	
+	timeOutInputLabel := (StringMorph new)
+		hResizing: #shrinkWrap;
+		vResizing: #spaceFill;
+		contents: 'Timeout (s):'.
+	
 	tempBar := (Morph new)
 		hResizing: #spaceFill;
 		color: Color white;
@@ -39,7 +41,8 @@ initialize
 		cellInset: 5;
 		extent: 720@20;
 		clipSubmorphs: true;
-		addMorph: timeoutInput.
+		addMorph: timeoutInput;
+		addMorph: timeOutInputLabel.
 
 	hListSelector := (SimpleButtonMorph newWithLabel: 'HList')
 		actWhen: #buttonDown;
@@ -101,11 +104,12 @@ initialize
 		addMorph: optionBar;
 		addMorph: tempBar.
 
-	self extent: 1280@600;
+	self
+		extent: 900@600;
 		layoutPolicy: ProportionalLayout new;
 		listDirection: #bottomToTop;
 		clipSubmorphs: true;
 		setLabel: 'PrettyProfiler';
-		addMorph: content fullFrame: (LayoutFrame fractions: (0@0.05 corner: 1@1)).
+		addMorph: content fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1)).
 
 	self isTallyRunning: false.

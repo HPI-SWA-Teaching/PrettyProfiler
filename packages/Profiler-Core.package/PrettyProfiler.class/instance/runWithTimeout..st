@@ -12,5 +12,5 @@ runWithTimeout: timeInSeconds
 	timeout resume.
 	BetterMessageTally spyOn: [
 		Transcript show: '<runWithTimeout>'.
-		self block.
+		self block value.
 		delay delaySemaphore signal]

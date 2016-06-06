@@ -7,4 +7,4 @@ preferredColor
 	
 	counter := (PackageInfo allPackages) size.
 	colors := Color wheel:counter.
-	^ colors at: ((item tallyClass) category asPacked \\ counter)
+	^ colors at: ((item tallyClass) category asPacked \\ counter) +1

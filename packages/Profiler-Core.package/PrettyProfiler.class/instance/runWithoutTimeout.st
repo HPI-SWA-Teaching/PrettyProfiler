@@ -3,5 +3,5 @@ runWithoutTimeout
 
 	BetterMessageTally spyOn: [
 		Transcript show: '<runWithoutTimeout>'.
-		self block.
+		self block value.
 		self isTallyRunning: false]

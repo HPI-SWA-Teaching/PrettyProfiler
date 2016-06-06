@@ -4,6 +4,6 @@ block
 	| string |
 	string := blockInput contents string.
 
-	(string notEmpty)
+	((string notEmpty) and: (string beginsWith: '['))
 		ifTrue: [^ Compiler evaluate: string]
 		ifFalse: [^ PrettyProfiler defaultBlock]
