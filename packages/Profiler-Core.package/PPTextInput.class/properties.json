@@ -1,0 +1,14 @@
+{
+	"category" : "Profiler-Core-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "PPTextInput",
+	"pools" : [
+		 ],
+	"super" : "TextMorph",
+	"type" : "normal" }
