@@ -1,7 +1,5 @@
 as yet unclassified
 runWithoutTimeout
-
-	BetterMessageTally spyOn: [
-		Transcript show: '<runWithoutTimeout>'.
-		self block value.
-		self isTallyRunning: false]
+	
+	BetterMessageTally spyOn: self block.
+	self isTallyRunning: false.

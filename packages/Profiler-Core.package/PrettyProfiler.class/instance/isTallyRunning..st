@@ -1,10 +1,6 @@
 accessing
 isTallyRunning: newValue
 	
-	(isTallyRunning = newValue)
-		ifTrue: [^ self].
-	isTallyRunning := newValue.
-
 	newValue
 		ifTrue: [
 			| timeInSeconds |
@@ -18,5 +14,9 @@ isTallyRunning: newValue
 				ifTrue: [self runWithoutTimeout]
 				ifFalse: [self runWithTimeout: timeInSeconds]]
 		ifFalse: [
+			(tallyResult isNil) ifFalse: [
+			Transcript show: tallyResult size].
 			runButton label: PrettyProfiler startText.
-			resultList on: tallyResult list: #value selected: nil changeSelected: #showDetails: menu: nil keystroke: nil]
+			resultList on: tallyResult list: #value selected: nil changeSelected: #showDetails: menu: nil keystroke: nil.
+			tallyResult := nil.
+			BetterMessageTally terminateTimerProcess]

@@ -6,13 +6,13 @@
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		"isTallyRunning",
 		"runButton",
 		"blockInput",
 		"timeoutInput",
 		"tallyResult",
 		"resultList",
-		"detailArea" ],
+		"detailArea",
+		"timeout" ],
 	"name" : "PrettyProfiler",
 	"pools" : [
 		 ],
