@@ -1,10 +1,4 @@
 as yet unclassified
-showDetails: aTallyObjectItemWrapper
+showDetails: itemWrapper
 	
-	profiler detailArea
-		on: (aTallyObjectItemWrapper item)
-		list: #list
-		selected: nil
-		changeSelected: nil
-		menu: nil
-		keystroke: nil.
+	profiler updateDetailArea: itemWrapper

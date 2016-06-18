@@ -17,6 +17,6 @@ isTallyRunning: newValue
 			(tallyResult isNil) ifFalse: [
 			Transcript show: tallyResult size].
 			runButton label: PrettyProfiler startText.
-			resultList on: tallyResult list: #value selected: nil changeSelected: #showDetails: menu: nil keystroke: nil.
+			self updateResults: tallyResult. 
 			tallyResult := nil.
 			BetterMessageTally terminateTimerProcess]

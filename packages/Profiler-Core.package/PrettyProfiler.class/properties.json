@@ -12,7 +12,9 @@
 		"tallyResult",
 		"resultList",
 		"detailArea",
-		"timeout" ],
+		"timeout",
+		"tabHolder",
+		"resultPie" ],
 	"name" : "PrettyProfiler",
 	"pools" : [
 		 ],

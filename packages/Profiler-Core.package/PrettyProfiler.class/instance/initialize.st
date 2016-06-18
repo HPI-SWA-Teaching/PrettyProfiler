@@ -46,11 +46,15 @@ initialize
 
 	hListSelector := (SimpleButtonMorph newWithLabel: 'HList')
 		actWhen: #buttonDown;
+		target: [tabHolder goToPage: 1];
+		actionSelector: #value;
 		extent:720@25;
 		hResizing: #spaceFill.
 
 	pieSelector := (SimpleButtonMorph newWithLabel: 'PolarPie')
 		actWhen: #buttonDown;
+		target: [tabHolder goToPage: 2];
+		actionSelector: #value;
 		extent:720@25;
 		hResizing: #spaceFill.
 
@@ -71,12 +75,36 @@ initialize
 		keystroke: nil)
 		hResizing: #spaceFill;
 		vResizing: #spaceFill.
+		
+	resultPie := (PPPolarPie new).
+	
+	tabHolder := (BookMorph new)
+		hResizing: #spaceFill;
+		vResizing: #spaceFill;
+		hidePageControls;
+		insertPageSilentlyAtEnd;
+		layoutPolicy: ProportionalLayout new.
+		
+	(tabHolder pages at: 1)
+		layoutFrame: (LayoutFrame fractions: (0@0 corner: 1@1));
+		hResizing: #spaceFill;
+		vResizing: #spaceFill;
+		layoutPolicy: ProportionalLayout new;
+		addMorph: resultList fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1)).
+	
+	(tabHolder pages at: 2)
+		layoutFrame: (LayoutFrame fractions: (0@0 corner: 1@1));
+		hResizing: #spaceFill;
+		vResizing: #spaceFill;
+		layoutPolicy: ProportionalLayout new;
+		addMorph: resultPie fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1)).
 
 	tabbedView := (Morph new)
 		layoutPolicy: TableLayout new;
 		listDirection: #topToBottom;
-		addMorph: resultList;
-		addMorph: tabControls.
+		addMorph: tabHolder;
+		addMorph: tabControls
+	.
 
 	detailArea :=  (PluggableListMorph
 		on: nil

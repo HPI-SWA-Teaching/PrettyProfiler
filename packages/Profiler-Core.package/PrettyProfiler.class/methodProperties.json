@@ -1,15 +1,16 @@
 {
 	"class" : {
-		"defaultBlock" : "Noel 6/6/2016 15:46",
+		"defaultBlock" : "Noel 6/17/2016 17:24",
 		"startText" : "Noel 5/12/2016 02:27",
 		"stopText" : "Noel 5/12/2016 02:28",
 		"testBlock" : "MW 5/23/2016 15:46" },
 	"instance" : {
-		"block" : "Noel 6/6/2016 15:49",
-		"detailArea" : "AM 5/27/2016 14:50",
-		"initialize" : "Noel 6/6/2016 15:57",
+		"block" : "Noel 6/17/2016 21:58",
+		"initialize" : "Noel 6/17/2016 20:21",
 		"isTallyRunning" : "AM 6/13/2016 08:24",
-		"isTallyRunning:" : "AM 6/13/2016 08:45",
+		"isTallyRunning:" : "Noel 6/17/2016 18:17",
 		"runWithTimeout:" : "AM 6/13/2016 08:47",
 		"runWithoutTimeout" : "AM 6/13/2016 08:47",
-		"toggleMessageTally" : "AM 6/1/2016 23:24" } }
+		"toggleMessageTally" : "AM 6/1/2016 23:24",
+		"updateDetailArea:" : "Noel 6/17/2016 20:09",
+		"updateResults:" : "Noel 6/17/2016 18:18" } }
