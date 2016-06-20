@@ -8,7 +8,7 @@
 	"instvars" : [
 		"clickCommand",
 		"centerPoint" ],
-	"name" : "PPPolygonMorph",
+	"name" : "PPPolarPiePiece",
 	"pools" : [
 		 ],
 	"super" : "PolygonMorph",

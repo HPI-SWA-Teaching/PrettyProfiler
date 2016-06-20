@@ -1,4 +1,4 @@
 as yet unclassified
 lineLength
 
-	^ 20
+	^ 16

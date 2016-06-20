@@ -1,16 +1,16 @@
 as yet unclassified
-addBlockAtLevel: level portion: portion offset: offset itemWrapper: item
+addBlockAtLevel: level portion: portion offset: offset itemWrapper: wrapper
 	
 	| vertices innerRadius outerRadius block |
 	
 	vertices := OrderedCollection new.
 	innerRadius := self class startRadius + (self class radiusStepSize * level).
-	outerRadius := innerRadius + self class radiusStepSize.
+	outerRadius := innerRadius + self class radiusStepSize + (self class lineLength / 2).
 
 	self class addArcTo: vertices radius: innerRadius portion: portion offset: offset.
 	self class addArcTo: vertices radius: outerRadius portion: (portion negated) offset: (offset+portion).
 	
-	block := (PPPolygonMorph vertices: vertices color: (item preferredColor) borderWidth: 1.0 borderColor: (Color transparent)).
-	block clickCommand: [tallyCollection profiler updateDetailArea: item].
+	block := (PPPolarPiePiece vertices: vertices color: (wrapper preferredColor) borderWidth: 1.0 borderColor: (Color black)).
+	block clickCommand: [tallyCollection profiler updateDetailArea: wrapper].
 	self addMorph: block.
-	block position: 400@400.
+	block position: 5000@5000.

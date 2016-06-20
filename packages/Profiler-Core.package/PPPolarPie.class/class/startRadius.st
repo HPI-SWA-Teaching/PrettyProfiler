@@ -1,4 +1,4 @@
 as yet unclassified
 startRadius
 
-	^ self radiusStepSize * 2.5
+	^ self radiusStepSize * 3.0

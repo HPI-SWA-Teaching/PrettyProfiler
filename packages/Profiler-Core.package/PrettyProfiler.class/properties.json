@@ -14,7 +14,9 @@
 		"detailArea",
 		"timeout",
 		"tabHolder",
-		"resultPie" ],
+		"resultPie",
+		"resultPieScrollPane",
+		"resultPieHolder" ],
 	"name" : "PrettyProfiler",
 	"pools" : [
 		 ],

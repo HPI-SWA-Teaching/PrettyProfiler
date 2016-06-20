@@ -1,5 +1,5 @@
 as yet unclassified
 radiusStepSize
 	
-	^ (Display height * 0.025) ceiling
+	^ (Display height * 0.02) ceiling
 	

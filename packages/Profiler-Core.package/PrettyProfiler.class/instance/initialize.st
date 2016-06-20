@@ -92,12 +92,19 @@ initialize
 		layoutPolicy: ProportionalLayout new;
 		addMorph: resultList fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1)).
 	
+	resultPieHolder := (PasteUpMorph new) 
+		extent: 10000@10000.
+	
+	resultPieScrollPane := ScrollPane new.
+	resultPieScrollPane	scroller addMorph: resultPieHolder.
+	resultPieHolder addMorph: resultPie.
+	
 	(tabHolder pages at: 2)
 		layoutFrame: (LayoutFrame fractions: (0@0 corner: 1@1));
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
 		layoutPolicy: ProportionalLayout new;
-		addMorph: resultPie fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1)).
+		addMorph: resultPieScrollPane fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1)).
 
 	tabbedView := (Morph new)
 		layoutPolicy: TableLayout new;
