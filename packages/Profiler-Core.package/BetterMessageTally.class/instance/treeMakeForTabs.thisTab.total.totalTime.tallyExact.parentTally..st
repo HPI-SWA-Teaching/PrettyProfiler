@@ -22,8 +22,8 @@ treeMakeForTabs: tabs thisTab: myTab total: total totalTime: totalTime tallyExac
 					total: total
 					totalTime: totalTime
 					tallyExact: isExact
-					parentTally: (i < sons size 
+					"parentTally: (i < sons size 
 						ifTrue: [newTally]
-						ifFalse: [nil])
-					].
-			tabs removeLast]
+						ifFalse: [nil])"
+					parentTally: newTally
+					].]
