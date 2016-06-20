@@ -1,0 +1,14 @@
+{
+	"category" : "Profiler-Core-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"tallyCollection" ],
+	"name" : "PPPolarPie",
+	"pools" : [
+		 ],
+	"super" : "Morph",
+	"type" : "normal" }

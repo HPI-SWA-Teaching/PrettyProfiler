@@ -1,0 +1,15 @@
+{
+	"class" : {
+		"vertices:color:borderWidth:borderColor:" : "Noel 6/17/2016 21:22" },
+	"instance" : {
+		"centerPoint" : "Noel 6/17/2016 21:23",
+		"centerPoint:" : "Noel 6/17/2016 21:23",
+		"clickCommand" : "Noel 6/17/2016 20:00",
+		"clickCommand:" : "Noel 6/17/2016 20:00",
+		"handlesMouseDown:" : "Noel 6/17/2016 19:54",
+		"handlesMouseOver:" : "Noel 6/17/2016 19:54",
+		"mouseDown:" : "Noel 6/17/2016 20:00",
+		"mouseEnter:" : "Noel 6/17/2016 20:29",
+		"mouseFocus:" : "Noel 6/17/2016 19:56",
+		"mouseLeave:" : "Noel 6/17/2016 20:29",
+		"position:" : "Noel 6/17/2016 21:16" } }

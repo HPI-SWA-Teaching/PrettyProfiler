@@ -1,0 +1,15 @@
+{
+	"category" : "Profiler-Core-UI",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"clickCommand",
+		"centerPoint" ],
+	"name" : "PPPolygonMorph",
+	"pools" : [
+		 ],
+	"super" : "PolygonMorph",
+	"type" : "normal" }
