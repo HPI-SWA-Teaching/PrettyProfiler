@@ -8,7 +8,7 @@ spyOn: aBlock reportOtherProcesses: aBoolean
 	MessageTally spyOn: [10000 timesRepeat: [1.23 printString]] reportOtherProcesses: true"
 	
 	| node result |
-	
+
 	node := self new.
 	node reportOtherProcesses: aBoolean.
 	result := node spyEvery: self defaultPollPeriod on: aBlock.

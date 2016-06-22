@@ -2,6 +2,7 @@ printing
 rootMakeForTotal: total totalTime: totalTime
 
 	| groups sons |
+	
 	sons := self sonsOver.
 	groups := sons groupBy: [ :aTally | aTally process ].
 	groups keysAndValuesDo: [ :p :g |

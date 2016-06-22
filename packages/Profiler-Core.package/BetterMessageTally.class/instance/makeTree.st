@@ -2,6 +2,7 @@ printing
 makeTree
 
 	"aStream nextPutAll: '**Tree**'; cr."
+
 	self
 		rootMakeForTotal: tally
 		totalTime: time

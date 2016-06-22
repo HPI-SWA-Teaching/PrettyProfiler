@@ -26,8 +26,6 @@ spyEvery: millisecs on: aBlock
 	Timer priority: Processor timingPriority-1.
 		"activate the probe and evaluate the block"
 	Timer resume.
-	"Transcript show: 'Process: (' , observedProcess priority , ') ' , observedProcess name , ': ' , observedProcess suspendedContext.
-	Transcript cr."
 	^ aBlock ensure: [
 		"cancel the probe and return the value"
 		"Could have already been terminated. See #terminateTimerProcess"

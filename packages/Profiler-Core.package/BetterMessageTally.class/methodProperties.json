@@ -5,16 +5,16 @@
 		"markBottlenecks" : "MW 5/29/2016 19:31",
 		"markParentsOfBottleneck:" : "MW 5/28/2016 17:14",
 		"spyOn:" : "Noel 6/17/2016 21:55",
-		"spyOn:reportOtherProcesses:" : "MW 5/24/2016 11:51",
+		"spyOn:reportOtherProcesses:" : "MW 6/22/2016 12:53",
 		"tallySendsTo:inBlock:showTree:" : "MW 5/24/2016 11:10" },
 	"instance" : {
-		"calculateTallyObjectForTotal:totalTime:tallyParent:" : "MW 5/29/2016 19:29",
+		"calculateTallyObjectForTotal:totalTime:tallyParent:" : "MW 6/21/2016 10:52",
 		"copyWithTally:" : "MW 5/10/2016 17:41",
-		"makeTree" : "MW 5/24/2016 12:08",
-		"rootMakeForTotal:totalTime:" : "MW 5/24/2016 12:08",
+		"makeTree" : "MW 6/21/2016 10:56",
+		"rootMakeForTotal:totalTime:" : "MW 6/21/2016 10:56",
 		"sonsOver" : "MW 5/24/2016 12:07",
 		"species" : "MW 5/10/2016 17:42",
-		"spyEvery:on:" : "MW 5/10/2016 17:31",
+		"spyEvery:on:" : "MW 6/22/2016 12:53",
 		"tallyPath:by:" : "MW 5/10/2016 17:43",
 		"tallyPath:in:by:" : "MW 5/12/2016 11:49",
-		"treeMakeForTabs:thisTab:total:totalTime:tallyExact:parentTally:" : "Noel 6/20/2016 16:34" } }
+		"treeMakeForTabs:thisTab:total:totalTime:tallyExact:parentTally:" : "MW 6/21/2016 10:54" } }

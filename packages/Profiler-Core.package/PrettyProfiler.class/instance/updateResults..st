@@ -3,6 +3,12 @@ updateResults: tallyResult
 
 	| delta |
 	resultList on: tallyResult list: #value selected: nil changeSelected: #showDetails: menu: nil keystroke: nil.
+	400 timesRepeat: 
+  		[resultList scroller submorphs
+  			do: [:each |
+     				(each canExpand and: [each isExpanded not])
+       	 		ifTrue: [each toggleExpandedState]].
+ 			resultList adjustSubmorphPositions].
 	resultPie on: tallyResult. 
 	
 	delta := (resultPieHolder extent - (tabHolder pages at: 2) extent)/2.
