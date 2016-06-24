@@ -14,8 +14,6 @@ isTallyRunning: newValue
 				ifTrue: [self runWithoutTimeout]
 				ifFalse: [self runWithTimeout: timeInSeconds]]
 		ifFalse: [
-			"(tallyResult isNil) ifFalse: [
-			Transcript show: tallyResult size]."
 			runButton label: PrettyProfiler startText.
 			self updateResults: tallyResult. 
 			tallyResult := nil.
