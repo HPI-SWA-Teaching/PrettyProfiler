@@ -1,8 +1,17 @@
 as yet unclassified
 buildLevel: level forCollection: tallyChildren offset: paramOffset
 
-	| offset |
+	| offset firstChild |
 	offset := paramOffset.
+	
+	((tallyChildren isNil) or: [tallyChildren isEmpty]) ifTrue:  [^ self].
+	firstChild := tallyChildren first.
+
+	((tallyChildren size = 1) and: [firstChild contents isEmpty not]) ifTrue: [
+		| portion |
+		portion := (firstChild item percentage) / 100.
+		self buildLevel: level forCollection: (firstChild contents) offset: offset.
+		^ self].
 
 	tallyChildren do: [ :wrapper |
 		| portion |
