@@ -3,12 +3,12 @@ initialize
 	| tempBar optionBar hListSelector pieSelector tabControls tabbedView resultArea content timeOutInputLabel |
 	super initialize.
 
-	runButton := (SimpleButtonMorph newWithLabel: '	    Start    ')
+	runButton := (SimpleButtonMorph newWithLabel: 'Start Profiling')
 		vResizing: #spaceFill;
 		color: Color white;
 		actWhen: #buttonDown;
 		target: self;
-		actionSelector: #toggleMessageTally.
+		actionSelector: #toggleProfiling.
 
 	blockInput := PPTextInput new.
 	
@@ -147,4 +147,4 @@ initialize
 		setLabel: 'PrettyProfiler';
 		addMorph: content fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1)).
 
-	self isTallyRunning: false.
+	"self stopProfiling."

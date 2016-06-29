@@ -6,7 +6,7 @@ runWithTimeout: timeInSeconds
 	delay := Delay forSeconds: timeInSeconds.
 	timeout := [
 		delay wait.
-		self isTallyRunning: false.
+		self stopProfiling.
 		timeout terminate] newProcess.
 	timeout priority: Processor timingPriority-1.
 

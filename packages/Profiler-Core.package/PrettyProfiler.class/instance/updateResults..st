@@ -3,7 +3,8 @@ updateResults: tallyResult
 
 	| delta |
 	resultList on: tallyResult list: #value selected: nil changeSelected: #showDetails: menu: nil keystroke: nil.
-	400 timesRepeat: 
+	
+	(BetterMessageTally tallyObjectCollection size) timesRepeat: 
   		[resultList scroller submorphs
   			do: [:each |
      				(each canExpand and: [each isExpanded not])

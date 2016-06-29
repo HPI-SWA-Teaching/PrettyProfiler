@@ -5,4 +5,4 @@ profileThis: aString
 	profilerInstance := self new.
 	profilerInstance setBlockInputContentTo: aString.
 	profilerInstance openInWorld.
-	profilerInstance toggleMessageTally
+	profilerInstance toggleProfiling
