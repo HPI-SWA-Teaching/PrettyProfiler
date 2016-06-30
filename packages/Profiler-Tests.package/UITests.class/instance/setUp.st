@@ -1,4 +1,5 @@
 as yet unclassified
 setUp
-	
-	self wantsToTest: PrettyProfiler new.
+
+	super setUp.
+	self profiler: PrettyProfiler new.

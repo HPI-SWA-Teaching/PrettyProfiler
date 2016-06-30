@@ -2,5 +2,7 @@
 	"class" : {
 		 },
 	"instance" : {
-		"setUp" : "MW 6/30/2016 17:52",
-		"testStartButtonInitialization" : "MW 6/30/2016 18:05" } }
+		"profiler" : "MW 6/30/2016 18:33",
+		"profiler:" : "MW 6/30/2016 18:33",
+		"setUp" : "MW 6/30/2016 18:33",
+		"testStartButtonInitialization" : "MW 6/30/2016 18:55" } }
