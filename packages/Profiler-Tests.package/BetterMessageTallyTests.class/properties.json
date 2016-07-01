@@ -1,0 +1,14 @@
+{
+	"category" : "Profiler-Tests",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		"betterMessageTallyInstance" ],
+	"name" : "BetterMessageTallyTests",
+	"pools" : [
+		 ],
+	"super" : "TestCase",
+	"type" : "normal" }

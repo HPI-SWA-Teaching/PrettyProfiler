@@ -1,5 +1,5 @@
 as yet unclassified
-testStartButtonInitialization
+testStartButtonLabel
 
 	self
 		assert: self profiler runButton label

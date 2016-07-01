@@ -5,6 +5,6 @@ list
 		('Percentage: ' , (percentage printShowingDecimalPlaces: 2) asString , '%').
 		('Time: ' , (time) asString , 'ms').
 		('BlockNesting: ' , (blockNesting)).
-		('Has children: ' , (tallyChildren notNil)).
+		('Has children: ' , (tallyChildren notEmpty)).
 		('Total parents: ' , (totalParents)).
 		('Is primitive: ' , (isPrimitive))} asArray 
