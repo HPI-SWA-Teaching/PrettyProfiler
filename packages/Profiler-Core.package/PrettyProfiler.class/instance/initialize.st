@@ -3,19 +3,21 @@ initialize
 	| tempBar optionBar hListSelector pieSelector tabControls tabbedView resultArea content timeOutInputLabel |
 	super initialize.
 
-	runButton := ((SimpleButtonMorph newWithLabel: 'Start Profiling')
+	runButton := (SimpleButtonMorph newWithLabel: 'Start Profiling')
 		vResizing: #spaceFill;
 		color: Color white;
 		actWhen: #buttonDown;
 		target: self;
-		actionSelector: #toggleProfiling).
+		actionSelector: #toggleProfiling;
+		name: 'runButton'.
 
 	blockInput := PPTextInput new.
 	
 	timeoutInput := (TextMorph new)
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
-		contents: '0'.
+		contents: '0';
+		name: 'timeoutInput'.
 	
 	timeOutInputLabel := (StringMorph new)
 		hResizing: #shrinkWrap;
