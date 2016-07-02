@@ -7,7 +7,7 @@
 	"commentStamp" : "",
 	"instvars" : [
 		"profiler" ],
-	"name" : "UITests",
+	"name" : "PrettyProfilerUITests",
 	"pools" : [
 		 ],
 	"super" : "TestCase",

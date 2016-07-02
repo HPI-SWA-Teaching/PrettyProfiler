@@ -3,7 +3,7 @@ initialize
 	| tempBar optionBar hListSelector pieSelector tabControls tabbedView resultArea content timeOutInputLabel |
 	super initialize.
 
-	self runButton: ((SimpleButtonMorph newWithLabel: 'Start Profiling')
+	runButton := ((SimpleButtonMorph newWithLabel: 'Start Profiling')
 		vResizing: #spaceFill;
 		color: Color white;
 		actWhen: #buttonDown;
