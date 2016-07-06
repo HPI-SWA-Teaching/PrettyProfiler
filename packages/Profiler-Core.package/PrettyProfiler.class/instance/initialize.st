@@ -47,6 +47,7 @@ initialize
 		addMorph: timeOutInputLabel.
 
 	hListSelector := (SimpleButtonMorph newWithLabel: 'HList')
+		color: Color white;
 		actWhen: #buttonDown;
 		target: [tabHolder goToPage: 1];
 		actionSelector: #value;
@@ -54,6 +55,7 @@ initialize
 		hResizing: #spaceFill.
 
 	pieSelector := (SimpleButtonMorph newWithLabel: 'PolarPie')
+		color: Color white;
 		actWhen: #buttonDown;
 		target: [tabHolder goToPage: 2];
 		actionSelector: #value;
