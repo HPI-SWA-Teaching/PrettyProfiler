@@ -86,6 +86,7 @@ initialize
 		hidePageControls;
 		insertPageSilentlyAtEnd;
 		layoutPolicy: ProportionalLayout new.
+	tabHolder setProperty: #transitionSpec toValue: (Array with: 'silence' with: #none with: #none).
 		
 	(tabHolder pages at: 1)
 		layoutFrame: (LayoutFrame fractions: (0@0 corner: 1@1));
@@ -114,7 +115,7 @@ initialize
 		addMorph: tabHolder;
 		addMorph: tabControls
 	.
-
+	
 	detailArea :=  (PluggableListMorph
 		on: nil
 		list: nil
