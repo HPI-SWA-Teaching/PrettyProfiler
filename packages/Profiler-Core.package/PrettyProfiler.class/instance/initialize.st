@@ -46,7 +46,7 @@ initialize
 		addMorph: timeoutInput;
 		addMorph: timeOutInputLabel.
 
-	hListSelector := (SimpleButtonMorph newWithLabel: 'HList')
+	hListSelector := (SimpleButtonMorph newWithLabel: 'Hierarchical List')
 		color: Color white;
 		actWhen: #buttonDown;
 		target: [tabHolder goToPage: 1];
@@ -54,7 +54,7 @@ initialize
 		extent:720@25;
 		hResizing: #spaceFill.
 
-	pieSelector := (SimpleButtonMorph newWithLabel: 'PolarPie')
+	pieSelector := (SimpleButtonMorph newWithLabel: 'Polar Pie Chart')
 		color: Color white;
 		actWhen: #buttonDown;
 		target: [tabHolder goToPage: 2];
