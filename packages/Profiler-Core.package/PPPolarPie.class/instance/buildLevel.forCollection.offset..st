@@ -19,4 +19,7 @@ buildLevel: level forCollection: tallyChildren offset: paramOffset
 		self addBlockAtLevel: level portion: portion offset: offset itemWrapper: wrapper.
 		self buildLevel: (level+1) forCollection: (wrapper contents) offset: offset.
 		offset := offset + portion.
-	]
+	].
+
+	self bounds: owner bounds.
+	self color: (Color veryVeryLightGray).

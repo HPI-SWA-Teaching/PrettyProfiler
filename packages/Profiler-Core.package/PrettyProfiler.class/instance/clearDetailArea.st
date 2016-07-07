@@ -1,9 +1,9 @@
 as yet unclassified
-updateDetailArea: itemWrapper
+clearDetailArea
 
 	detailArea
-		on: itemWrapper item
-		list: #list
+		on: nil
+		list: nil
 		selected: nil
 		changeSelected: nil
 		menu: nil
