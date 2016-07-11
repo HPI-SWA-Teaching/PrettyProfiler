@@ -10,5 +10,5 @@
 	"name" : "PPTextInput",
 	"pools" : [
 		 ],
-	"super" : "TextMorph",
+	"super" : "PluggableTextMorphPlus",
 	"type" : "normal" }

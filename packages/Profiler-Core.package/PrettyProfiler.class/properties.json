@@ -16,7 +16,9 @@
 		"tabHolder",
 		"resultPie",
 		"resultPieScrollPane",
-		"resultPieHolder" ],
+		"resultPieHolder",
+		"resultArea",
+		"blockInputText" ],
 	"name" : "PrettyProfiler",
 	"pools" : [
 		 ],

@@ -6,8 +6,9 @@
 		"stopText" : "Noel 5/12/2016 02:28",
 		"testBlock" : "MW 5/23/2016 15:46" },
 	"instance" : {
-		"block" : "AM 7/2/2016 15:34",
-		"initialize" : "LL 7/2/2016 16:12",
+		"block" : "ND 7/11/2016 12:18",
+		"clearDetailArea" : "LL 7/2/2016 16:17:39.675011",
+		"initialize" : "ND 7/11/2016 15:57",
 		"isTallyRunning" : "AM 6/13/2016 08:24",
 		"runButton" : "MW 6/30/2016 18:49",
 		"runWithTimeout:" : "AM 7/2/2016 15:32",

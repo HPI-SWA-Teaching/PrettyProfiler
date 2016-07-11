@@ -1,6 +1,6 @@
 as yet unclassified
 initialize
-	| tempBar optionBar hListSelector pieSelector tabControls tabbedView resultArea content timeOutInputLabel |
+	| tempBar optionBar hListSelector pieSelector tabControls tabbedView content timeOutInputLabel |
 	super initialize.
 
 	runButton := (SimpleButtonMorph newWithLabel: 'Start Profiling')
@@ -11,7 +11,11 @@ initialize
 		actionSelector: #toggleProfiling;
 		name: 'runButton'.
 
-	blockInput := PPTextInput new.
+	blockInput := PPTextInput new;
+		on: self
+		text: blockInputText 
+		accept: nil.
+	blockInput balloonText: 'Enter block to profile here, profile World otherwise...'.
 	
 	timeoutInput := (TextMorph new)
 		hResizing: #spaceFill;
@@ -32,8 +36,8 @@ initialize
 		cellInset: 5;
 		extent: 720@60;
 		clipSubmorphs: true;
-		addMorph: blockInput;
-		addMorph: runButton.
+		addMorph: runButton;
+		addMorph: blockInput.
 
 	optionBar := (Morph new)
 		hResizing: #spaceFill;
@@ -137,7 +141,7 @@ initialize
 		color: (Color lightGray);
 		layoutPolicy: TableLayout new;
 		listDirection: #topToBottom;
-		cellInset: 20;
+		cellInset: 5;
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
 		addMorph: resultArea;
@@ -147,9 +151,10 @@ initialize
 	self
 		extent: 900@600;
 		layoutPolicy: ProportionalLayout new;
-		listDirection: #bottomToTop;
 		clipSubmorphs: true;
 		setLabel: 'PrettyProfiler';
 		addMorph: content fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1)).
+		
+	
 
-	"self stopProfiling."
+
