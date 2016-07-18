@@ -1,5 +1,5 @@
 as yet unclassified
-testTimeout
+TestTimeout
 "We have to change or delete this. Problems are kinda complex because of concurrency. Capital first Letter makes it not recognized as test."
 
 	"(self subject findByName: 'block') contents: '[true] whileTrue: [#(1 4 2 6 8) sort]'."
