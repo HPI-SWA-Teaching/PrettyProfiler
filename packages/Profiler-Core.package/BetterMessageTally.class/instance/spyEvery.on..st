@@ -31,4 +31,4 @@ spyEvery: millisecs on: aBlock
 		"Could have already been terminated. See #terminateTimerProcess"
 		self class terminateTimerProcess.
 		self computeGCStats.
-		time := Time millisecondClockValue - time0].
+		time := Time millisecondClockValue - time0]

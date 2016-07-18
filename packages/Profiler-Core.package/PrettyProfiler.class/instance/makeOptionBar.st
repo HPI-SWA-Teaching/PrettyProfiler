@@ -21,4 +21,4 @@ makeOptionBar
 		extent: 720@20;
 		clipSubmorphs: true;
 		addMorph: timeoutInput;
-		addMorph: timeOutInputLabel.
+		addMorph: timeOutInputLabel

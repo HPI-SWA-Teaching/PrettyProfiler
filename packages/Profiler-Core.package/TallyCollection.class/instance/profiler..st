@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 profiler: anObject
 
 	profiler := anObject

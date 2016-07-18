@@ -1,4 +1,4 @@
-as yet unclassified
+bottlenecks
 markParentsOfBottleneck: aTallyObject
 
 	(aTallyObject tallyParent notNil)

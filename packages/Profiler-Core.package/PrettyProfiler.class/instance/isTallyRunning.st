@@ -1,4 +1,4 @@
 accessing
 isTallyRunning
 	
-	^ BetterMessageTally runningInstance isNil not.
+	^ BetterMessageTally runningInstance isNil not

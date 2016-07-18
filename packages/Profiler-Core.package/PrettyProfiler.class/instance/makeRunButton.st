@@ -1,9 +1,4 @@
 as yet unclassified
 makeRunButton
-	^ (SimpleButtonMorph newWithLabel: 'Start Profiling')
-		vResizing: #spaceFill;
-		color: Color white;
-		actWhen: #buttonDown;
-		target: self;
-		actionSelector: #toggleProfiling;
-		name: 'runButton'.
+	^ (PluggableButtonMorph on: self getState: nil action: #toggleProfiling label: #runButtonLabel)
+		vResizing: #spaceFill.

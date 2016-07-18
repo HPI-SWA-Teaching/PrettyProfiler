@@ -11,4 +11,4 @@ makeStartBar
 		extent: 720@60;
 		clipSubmorphs: true;
 		addMorph: runButton;
-		addMorph: blockInput.
+		addMorph: blockInput

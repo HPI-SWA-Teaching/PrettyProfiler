@@ -1,4 +1,4 @@
-as yet unclassified
+details
 showDetails: itemWrapper
 	
 	profiler updateDetailArea: itemWrapper

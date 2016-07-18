@@ -15,4 +15,4 @@ calculateTallyObjectForTotal: total totalTime: totalTime tallyParent: tallyParen
 							tallyMethod: method selector;
 							isPrimitive: (receivers = nil);
 							tallyParent: tallyParent).
-	^ newTallyObject.
+	^ newTallyObject
