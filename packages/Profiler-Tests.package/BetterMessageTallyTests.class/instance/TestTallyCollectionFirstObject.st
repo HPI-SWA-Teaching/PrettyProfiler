@@ -1,5 +1,5 @@
 as yet unclassified
-TestTallyCollectionFirstObject
+testTallyCollectionFirstObject
 
 	BetterMessageTally spyOn: PrettyProfiler testBlock.
 	self
