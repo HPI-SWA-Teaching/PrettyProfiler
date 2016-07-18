@@ -5,4 +5,6 @@ spyOn: aBlock reportOtherProcesses: aBoolean
 	node := self new.
 	node reportOtherProcesses: aBoolean.
 	result := node spyEvery: self defaultPollPeriod on: aBlock.
-	node makeTree.
+	node
+		rootMakeForTotal: node tally
+		totalTime: node time

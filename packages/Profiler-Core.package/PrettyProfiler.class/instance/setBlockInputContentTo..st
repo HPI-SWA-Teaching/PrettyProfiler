@@ -1,4 +1,4 @@
 as yet unclassified
 setBlockInputContentTo: aString
 
-	blockInput contents: aString.
+	blockInput setText: aString.
