@@ -1,54 +1,10 @@
 as yet unclassified
 initialize
-	| tempBar optionBar hListSelector pieSelector tabControls tabbedView content timeOutInputLabel |
+	| tempBar optionBar hListSelector pieSelector tabControls tabbedView content |
 	super initialize.
-
-	runButton := (SimpleButtonMorph newWithLabel: 'Start Profiling')
-		vResizing: #spaceFill;
-		color: Color white;
-		actWhen: #buttonDown;
-		target: self;
-		actionSelector: #toggleProfiling;
-		name: 'runButton'.
-
-	blockInput := PPTextInput new;
-		on: self
-		text: blockInputText 
-		accept: nil.
-	blockInput balloonText: 'Enter block to profile here, profile World otherwise...'.
 	
-	timeoutInput := (TextMorph new)
-		hResizing: #spaceFill;
-		vResizing: #spaceFill;
-		contents: '0';
-		name: 'timeoutInput'.
-	
-	timeOutInputLabel := (StringMorph new)
-		hResizing: #shrinkWrap;
-		vResizing: #spaceFill;
-		contents: 'Timeout (s):'.
-	
-	tempBar := (Morph new)
-		hResizing: #spaceFill;
-		color: Color white;
-		layoutPolicy: TableLayout new;
-		listDirection: #leftToRight;
-		cellInset: 5;
-		extent: 720@60;
-		clipSubmorphs: true;
-		addMorph: runButton;
-		addMorph: blockInput.
-
-	optionBar := (Morph new)
-		hResizing: #spaceFill;
-		color: Color white;
-		layoutPolicy: TableLayout new;
-		listDirection: #leftToRight;
-		cellInset: 5;
-		extent: 720@20;
-		clipSubmorphs: true;
-		addMorph: timeoutInput;
-		addMorph: timeOutInputLabel.
+	tempBar := self makeStartBar.
+	optionBar := self makeOptionBar.
 
 	hListSelector := (SimpleButtonMorph newWithLabel: 'Hierarchical List')
 		color: Color white;
