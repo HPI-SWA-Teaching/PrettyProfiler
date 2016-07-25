@@ -3,7 +3,7 @@
 ![PrettyProfiler Logo](/PrettyProfilerLogo.png?raw=true "PrettyProfiler Logo")
 
 ## Description
-PrettyProfiler is an interactive profiling tool for Squeak. Its core functionality is based on the integrated profiler MessageTally.
+PrettyProfiler is an interactive profiling tool for the programming environment [Squeak](http://squeak.org/). PrettyProfiler is a full graphical browser that shows the profiling results as a hierachichal list and polar pie chart. Its core functionality is based on the integrated profiler MessageTally.
 
 ## Setup
 ...
