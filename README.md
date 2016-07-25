@@ -22,4 +22,5 @@ BetterMessageTally is an interactive profiling tool for Squeak. Its core functio
 ...
 
 ## License
-...
+Released under the [MIT license](http://www.opensource.org/licenses/MIT).
+
