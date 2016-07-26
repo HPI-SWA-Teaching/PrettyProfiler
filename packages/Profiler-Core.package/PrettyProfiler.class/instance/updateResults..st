@@ -1,7 +1,7 @@
 layout
 updateResults: tallyResult
-
 	| delta |
+	
 	resultList on: tallyResult list: #value selected: nil changeSelected: #showDetails: menu: nil keystroke: nil.
 	
 	(BetterMessageTally tallyObjectCollection size) timesRepeat: 
@@ -17,4 +17,4 @@ updateResults: tallyResult
 	resultPieScrollPane vScrollBar value: delta y.
 	resultPieScrollPane hScrollBar value: delta x.
 	resultPieScrollPane vScrollBarValue: delta y.
-	resultPieScrollPane hScrollBarValue: delta x.
+	resultPieScrollPane hScrollBarValue: delta x

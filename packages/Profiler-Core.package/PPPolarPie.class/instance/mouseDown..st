@@ -1,3 +1,4 @@
 event handling
 mouseDown: evt
-	tallyCollection ifNotNil: [tallyCollection profiler clearDetailArea].
+
+	tallyCollection ifNotNil: [tallyCollection profiler clearDetailArea]

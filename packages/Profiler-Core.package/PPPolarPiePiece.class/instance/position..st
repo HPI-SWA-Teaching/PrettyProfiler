@@ -3,6 +3,7 @@ position: aPoint
 	"Change the position of this morph and and all of its
 	submorphs. "
 	| delta box |
+	
 	delta := (aPoint - centerPoint) rounded.
 	centerPoint := aPoint.
 	(delta x = 0

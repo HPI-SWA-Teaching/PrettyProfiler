@@ -1,6 +1,7 @@
 make
 makeOptionBar 
 	| timeOutInputLabel |
+	
 	timeoutInput := (TextMorph new)
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;

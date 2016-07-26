@@ -1,3 +1,4 @@
 event handling
 mouseFocus: evt
-	super mouseFocus: evt.
+
+	super mouseFocus: evt

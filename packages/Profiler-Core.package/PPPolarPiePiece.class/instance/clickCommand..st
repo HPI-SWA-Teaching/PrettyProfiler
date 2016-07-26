@@ -1,4 +1,4 @@
 accessing
-clickCommand: anObject
+clickCommand: aCommand
 
-	clickCommand := anObject
+	clickCommand := aCommand

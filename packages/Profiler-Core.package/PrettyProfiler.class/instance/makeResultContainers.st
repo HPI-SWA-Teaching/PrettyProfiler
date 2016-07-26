@@ -1,5 +1,6 @@
 layout
 makeResultContainers
+
 	resultList := (SimpleHierarchicalListMorph
 		on: nil
 		list: nil
@@ -15,4 +16,4 @@ makeResultContainers
 		extent: 10000@10000.
 	resultPieScrollPane := ScrollPane new.
 	resultPieScrollPane	scroller addMorph: resultPieHolder.
-	resultPieHolder addMorph: resultPie.
+	resultPieHolder addMorph: resultPie

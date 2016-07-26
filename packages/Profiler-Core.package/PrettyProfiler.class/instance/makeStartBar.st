@@ -1,5 +1,6 @@
 make
-makeStartBar 
+makeStartBar
+
 	runButton := self makeRunButton.
 	blockInput := self makeBlockInput.
 	^ (Morph new)

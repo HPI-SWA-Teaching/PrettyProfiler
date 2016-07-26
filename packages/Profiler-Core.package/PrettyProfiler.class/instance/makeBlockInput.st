@@ -1,6 +1,7 @@
 make
 makeBlockInput
-	|input| 
+	|input|
+	
 	input := PPTextInput new;
 		on: self
 		text: blockInputText 

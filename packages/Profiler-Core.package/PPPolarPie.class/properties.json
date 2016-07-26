@@ -6,7 +6,8 @@
 		 ],
 	"commentStamp" : "AM 7/26/2016 12:04",
 	"instvars" : [
-		"tallyCollection" ],
+		"tallyCollection",
+		"selectedPiece" ],
 	"name" : "PPPolarPie",
 	"pools" : [
 		 ],

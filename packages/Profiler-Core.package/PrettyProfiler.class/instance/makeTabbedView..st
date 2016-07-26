@@ -1,5 +1,6 @@
 layout
 makeTabbedView: tabControls
+
 	tabHolder := (BookMorph new)
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;

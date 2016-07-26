@@ -1,6 +1,7 @@
 initialize
 initialize 
 	"setup me"
+	
 	super initialize.
 	self	
 		hResizing: #spaceFill;

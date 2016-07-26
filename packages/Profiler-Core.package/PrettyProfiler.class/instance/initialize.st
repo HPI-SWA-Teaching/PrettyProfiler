@@ -1,6 +1,7 @@
 initialization
 initialize
 	| tabbedView content |
+	
 	super initialize.
 
 	self addContextMenu.

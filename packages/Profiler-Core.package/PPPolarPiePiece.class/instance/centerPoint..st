@@ -1,4 +1,4 @@
 accessing
-centerPoint: anObject
+centerPoint: aPoint
 
-	centerPoint := anObject
+	centerPoint := aPoint

@@ -1,6 +1,5 @@
 run
 runWithTimeout: timeInSeconds
-
 	| delay |
 
 	delay := Delay forSeconds: timeInSeconds.
@@ -8,7 +7,7 @@ runWithTimeout: timeInSeconds
 		delay wait.
 		self stopProfiling.
 		timeout terminate] newProcess.
-	timeout priority: Processor timingPriority-1.
+	timeout priority: Processor timingPriority-1
 
 	timeout resume.
 	BetterMessageTally spyOn: self block.

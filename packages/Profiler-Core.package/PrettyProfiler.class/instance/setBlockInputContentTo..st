@@ -1,4 +1,4 @@
 layout
 setBlockInputContentTo: aString
 
-	blockInput setText: aString.
+	blockInput setText: aString

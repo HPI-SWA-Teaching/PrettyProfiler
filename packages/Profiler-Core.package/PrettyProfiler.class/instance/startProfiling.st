@@ -1,7 +1,7 @@
 state
 startProfiling
-
 	| timeOutInSeconds |
+	
 	runButton label: self class stopText.
 	tallyResult := nil.
 	resultList on: nil list: nil selected: nil changeSelected: #showDetails: menu: nil keystroke: nil.

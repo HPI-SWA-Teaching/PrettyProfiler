@@ -1,7 +1,7 @@
 layout
 block
-
 	| string |
+	
 	string := blockInput text.
 	
 	((string notEmpty) and: [string beginsWith: '['])

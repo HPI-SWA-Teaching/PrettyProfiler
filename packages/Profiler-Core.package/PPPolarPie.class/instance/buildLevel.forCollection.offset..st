@@ -1,7 +1,7 @@
 level handling
 buildLevel: level forCollection: tallyChildren offset: paramOffset
-
 	| offset firstChild |
+	
 	offset := paramOffset.
 	
 	((tallyChildren isNil) or: [tallyChildren isEmpty]) ifTrue:  [^ self].

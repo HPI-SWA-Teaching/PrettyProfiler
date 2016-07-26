@@ -1,4 +1,5 @@
 event handling
 mouseLeave: evt
 	
-	self color: self color twiceDarker
+	(self polarPie selectedPiece = self)
+	ifFalse: [self color: self color twiceDarker]

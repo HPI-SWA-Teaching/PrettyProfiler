@@ -1,0 +1,4 @@
+accessing
+selectedPiece
+
+	^ selectedPiece

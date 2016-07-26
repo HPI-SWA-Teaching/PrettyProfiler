@@ -1,6 +1,5 @@
 level handling
 addBlockAtLevel: level portion: portion offset: offset itemWrapper: wrapper
-	
 	| vertices innerRadius outerRadius block |
 	
 	vertices := OrderedCollection new.
@@ -12,5 +11,6 @@ addBlockAtLevel: level portion: portion offset: offset itemWrapper: wrapper
 	
 	block := (PPPolarPiePiece vertices: vertices color: (wrapper preferredColor) borderWidth: 1.0 borderColor: (Color black)).
 	block clickCommand: [tallyCollection profiler updateDetailArea: wrapper].
+	block polarPie: self.
 	self addMorph: block.
 	block position: 5000@5000.
