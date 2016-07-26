@@ -50,7 +50,7 @@ initialize
 		layoutPolicy: ProportionalLayout new.
 	tabHolder setProperty: #transitionSpec toValue: (Array with: 'silence' with: #none with: #none).
 		
-	(tabHolder pages at: 1)
+	(tabHolder pages first)
 		layoutFrame: (LayoutFrame fractions: (0@0 corner: 1@1));
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;

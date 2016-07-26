@@ -1,4 +1,4 @@
-as yet unclassified
+level handling
 buildLevel: level forCollection: tallyChildren offset: paramOffset
 
 	| offset firstChild |

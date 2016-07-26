@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 position: aPoint 
 	"Change the position of this morph and and all of its
 	submorphs. "

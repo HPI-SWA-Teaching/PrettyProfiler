@@ -1,4 +1,4 @@
-as yet unclassified
+level handling
 addBlockAtLevel: level portion: portion offset: offset itemWrapper: wrapper
 	
 	| vertices innerRadius outerRadius block |

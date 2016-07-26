@@ -1,4 +1,4 @@
-as yet unclassified
+level handling
 on: newTallyCollection
 
 	tallyCollection := newTallyCollection.

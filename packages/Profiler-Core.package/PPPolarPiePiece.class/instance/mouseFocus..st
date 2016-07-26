@@ -1,3 +1,3 @@
-as yet unclassified
+event handling
 mouseFocus: evt
 	super mouseFocus: evt.
