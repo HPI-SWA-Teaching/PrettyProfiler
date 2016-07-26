@@ -6,5 +6,8 @@
 		"profiler:" : "MW 6/30/2016 18:33",
 		"setUp" : "MW 7/26/2016 16:05",
 		"testDisplayResults" : "MW 7/26/2016 16:05",
-		"testInitialState" : "MW 7/26/2016 16:05",
-		"testStartButtonLabel" : "MW 7/1/2016 16:17" } }
+		"testInitialState" : "MW 7/26/2016 17:20",
+		"testProfileThis" : "MW 7/26/2016 19:05",
+		"testSetBlockInput" : "MW 7/26/2016 17:30",
+		"testStartButtonLabel" : "MW 7/1/2016 16:17",
+		"testUpdateAndClearDetailArea" : "MW 7/26/2016 18:49" } }
