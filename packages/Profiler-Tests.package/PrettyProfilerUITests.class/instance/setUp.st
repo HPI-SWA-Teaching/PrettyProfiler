@@ -2,4 +2,4 @@ as yet unclassified
 setUp
 
 	super setUp.
-	self profiler: PrettyProfiler new.
+	self profiler: PrettyProfiler new

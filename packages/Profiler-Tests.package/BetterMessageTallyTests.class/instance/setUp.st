@@ -3,4 +3,4 @@ setUp
 
 	super setUp.
 	
-	self bmt: BetterMessageTally new.
+	self bmt: BetterMessageTally new

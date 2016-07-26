@@ -15,4 +15,4 @@ testDisplayResults
 
 	tallyResult := TallyCollection with: wrapper.
 	tallyResult profiler: self profiler.
-	self profiler updateResults: tallyResult.
+	self profiler updateResults: tallyResult
