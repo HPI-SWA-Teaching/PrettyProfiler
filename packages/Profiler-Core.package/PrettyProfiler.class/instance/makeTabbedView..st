@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 makeTabbedView: tabControls
 	tabHolder := (BookMorph new)
 		hResizing: #spaceFill;

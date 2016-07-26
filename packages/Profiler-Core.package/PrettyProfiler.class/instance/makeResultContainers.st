@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 makeResultContainers
 	resultList := (SimpleHierarchicalListMorph
 		on: nil

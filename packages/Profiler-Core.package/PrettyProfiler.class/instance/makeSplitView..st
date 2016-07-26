@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 makeSplitView: tabbedView
 	detailArea :=  (PluggableListMorph
 		on: nil

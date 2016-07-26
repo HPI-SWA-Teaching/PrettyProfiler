@@ -1,4 +1,4 @@
-initialization
+layout
 addContextMenu
   
 SmalltalkEditor compile: 'prettyProfileIt
