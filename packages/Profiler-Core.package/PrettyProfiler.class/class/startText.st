@@ -1,3 +1,4 @@
 text
-startText 
-	^'Start Profiling'
+startText
+
+	^ 'Start Profiling'

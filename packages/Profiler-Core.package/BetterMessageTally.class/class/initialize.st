@@ -1,5 +1,5 @@
 initialize
 initialize
-
-	"self initialize"
+"self initialize"
+	
 	TallyObjectCollection := OrderedCollection new.. 

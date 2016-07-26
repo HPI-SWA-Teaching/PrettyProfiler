@@ -7,4 +7,4 @@ clearDetailArea
 		selected: nil
 		changeSelected: nil
 		menu: nil
-		keystroke: nil.
+		keystroke: nil

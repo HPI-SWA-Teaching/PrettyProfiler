@@ -1,3 +1,4 @@
 accessing
-totalParents: anObject
-	totalParents := anObject
+totalParents: anInteger
+
+	totalParents := anInteger

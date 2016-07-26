@@ -1,7 +1,6 @@
 bottlenecks
 markBottlenecks
-
-| maxTotalParents |
+	| maxTotalParents |
 
 	maxTotalParents := (TallyObjectCollection inject: (TallyObject new) into: [:t1 :t2 | (t1 totalParents > t2 totalParents)
 		ifTrue: [t1]

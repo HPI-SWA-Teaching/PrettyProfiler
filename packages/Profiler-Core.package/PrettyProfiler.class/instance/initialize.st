@@ -26,4 +26,4 @@ initialize
 		layoutPolicy: ProportionalLayout new;
 		clipSubmorphs: true;
 		setLabel: 'PrettyProfiler';
-		addMorph: content fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1)).
+		addMorph: content fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1))

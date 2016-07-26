@@ -1,8 +1,7 @@
 printing
 calculateTallyObjectForTotal: total totalTime: totalTime tallyParent: tallyParent
 "Answers a new TallyObject based on the given data"
-
-| percentage newTallyObject|
+	| percentage newTallyObject |
 
 	percentage := tally asFloat / total * 100.0.
 	

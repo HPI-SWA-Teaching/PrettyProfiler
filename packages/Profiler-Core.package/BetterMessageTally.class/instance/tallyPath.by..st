@@ -1,6 +1,7 @@
 tallying
 tallyPath: context by: count
 	| aMethod nesting path |
+	
 	aMethod := context method.
 	nesting := self blockNestingCountOf: context.
 

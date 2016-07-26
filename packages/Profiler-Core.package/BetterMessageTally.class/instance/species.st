@@ -1,3 +1,4 @@
 comparing
 species
+
 	^ self class

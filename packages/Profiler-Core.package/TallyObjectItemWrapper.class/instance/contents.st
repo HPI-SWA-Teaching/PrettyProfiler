@@ -1,4 +1,4 @@
 accessing
 contents
 
-	^ item tallyChildren collect: [ :t | self class with: t ]
+	^ item tallyChildren collect: [:t | self class with: t]

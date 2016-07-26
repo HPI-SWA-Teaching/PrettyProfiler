@@ -1,3 +1,4 @@
 block
-defaultBlock 
+defaultBlock
+
 	^ [[self isTallyRunning] whileTrue: [World doOneCycle]]

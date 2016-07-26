@@ -15,5 +15,4 @@ treeMakeForTotal: total totalTime: totalTime tallyExact: isExact parentTally: pa
 					treeMakeForTotal: total
 					totalTime: totalTime
 					tallyExact: isExact
-					parentTally: newTally
-					].]
+					parentTally: newTally]]

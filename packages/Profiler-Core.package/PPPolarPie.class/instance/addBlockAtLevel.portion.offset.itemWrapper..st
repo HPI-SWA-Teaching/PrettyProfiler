@@ -13,4 +13,4 @@ addBlockAtLevel: level portion: portion offset: offset itemWrapper: wrapper
 	block clickCommand: [tallyCollection profiler updateDetailArea: wrapper].
 	block polarPie: self.
 	self addMorph: block.
-	block position: 5000@5000.
+	block position: 5000@5000

@@ -1,6 +1,5 @@
 geometry
 addArcTo: vertices radius: radius portion: portion offset: offset
-
 	| step steps |
 
 	step := 0.
@@ -10,4 +9,4 @@ addArcTo: vertices radius: radius portion: portion offset: offset
 		| angle |
 		angle := ((step / (steps-1)) * portion + offset) * Float pi * 2.0.
 		step := step + 1.
-		vertices add: ((angle sin) @ (angle cos)) * radius. ].
+		vertices add: ((angle sin) @ (angle cos)) * radius]

@@ -22,4 +22,4 @@ buildLevel: level forCollection: tallyChildren offset: paramOffset
 	].
 
 	self bounds: owner bounds.
-	self color: (Color veryVeryLightGray).
+	self color: (Color veryVeryLightGray)

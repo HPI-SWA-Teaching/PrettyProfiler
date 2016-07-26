@@ -1,19 +1,19 @@
 {
 	"class" : {
-		"initialize" : "MW 5/12/2016 15:12",
+		"initialize" : "MW 7/26/2016 15:50",
 		"makeTallyCollection:" : "MW 5/28/2016 17:03",
-		"markBottlenecks" : "MW 5/29/2016 19:31",
+		"markBottlenecks" : "MW 7/26/2016 15:50",
 		"markParentsOfBottleneck:" : "MW 5/28/2016 17:14",
 		"spyOn:" : "Noel 6/17/2016 21:55",
 		"spyOn:reportOtherProcesses:" : "MW 7/18/2016 14:30",
-		"tallyObjectCollection" : "MW 6/29/2016 16:50",
-		"tallySendsTo:inBlock:showTree:" : "MW 5/24/2016 11:10" },
+		"tallyObjectCollection" : "MW 7/26/2016 15:51",
+		"tallySendsTo:inBlock:showTree:" : "MW 7/26/2016 15:51" },
 	"instance" : {
-		"calculateTallyObjectForTotal:totalTime:tallyParent:" : "hf 7/26/2016 11:05",
-		"copyWithTally:" : "hf 7/26/2016 11:14",
-		"rootMakeForTotal:totalTime:" : "MW 7/18/2016 14:50",
-		"sonsOver" : "hf 7/26/2016 11:15",
-		"species" : "hf 7/26/2016 11:22",
-		"tallyPath:by:" : "hf 7/26/2016 11:22",
-		"tallyPath:in:by:" : "hf 7/26/2016 11:22",
-		"treeMakeForTotal:totalTime:tallyExact:parentTally:" : "MW 7/18/2016 15:02" } }
+		"calculateTallyObjectForTotal:totalTime:tallyParent:" : "MW 7/26/2016 15:43",
+		"copyWithTally:" : "MW 7/26/2016 15:41",
+		"rootMakeForTotal:totalTime:" : "MW 7/26/2016 15:44",
+		"sonsOver" : "MW 7/26/2016 15:44",
+		"species" : "MW 7/26/2016 15:44",
+		"tallyPath:by:" : "MW 7/26/2016 15:44",
+		"tallyPath:in:by:" : "MW 7/26/2016 15:45",
+		"treeMakeForTotal:totalTime:tallyExact:parentTally:" : "MW 7/26/2016 15:45" } }

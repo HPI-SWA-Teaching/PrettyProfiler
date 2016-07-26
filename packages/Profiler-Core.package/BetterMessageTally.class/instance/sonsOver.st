@@ -1,6 +1,5 @@
 comparing
 sonsOver
-
 	| hereTally last sons |
 
 	receivers basicSize = 0 ifTrue: [^#()].

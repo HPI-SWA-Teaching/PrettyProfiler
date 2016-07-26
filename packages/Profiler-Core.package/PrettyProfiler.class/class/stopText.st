@@ -1,3 +1,4 @@
 text
-stopText 
-	^'Stop Profiling'
+stopText
+
+	^ 'Stop Profiling'

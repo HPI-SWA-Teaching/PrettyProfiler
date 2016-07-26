@@ -1,6 +1,7 @@
 tallying
 tallyPath: context in: aProcess by: count
 	| aMethod nesting path |
+	
 	aMethod := context method.
 	nesting := self blockNestingCountOf: context.
 
@@ -23,4 +24,4 @@ tallyPath: context in: aProcess by: count
 					maxTabs: maxTabs.
 		receivers := receivers copyWith: path].
 
-	^path bumpBy: count
+	^ path bumpBy: count

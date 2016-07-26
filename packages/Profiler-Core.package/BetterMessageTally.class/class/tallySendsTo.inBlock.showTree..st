@@ -6,8 +6,8 @@ tallySendsTo: receiver inBlock: aBlock showTree: treeOption
 	to that receiver are tallied.
 	Results are presented as leaves, sorted by frequency,
 	preceded, optionally, by the whole tree."
-	
 	| prev tallies startTime totalTime |
+	
 	startTime := Time millisecondClockValue.
 	tallies := BetterMessageTally new class: aBlock receiver class method: aBlock method.
 	tallies reportOtherProcesses: true.	"Do NOT filter nodes with nil process"
