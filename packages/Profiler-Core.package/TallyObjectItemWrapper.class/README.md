@@ -1,0 +1,1 @@
+A TallyObjectItemWrapper is a wrapper around TallyObjects to be displayed in a SimpleHierarchicalListMorph.

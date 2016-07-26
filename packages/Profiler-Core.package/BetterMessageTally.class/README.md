@@ -1,0 +1,1 @@
+BetterMessageTally is used by PrettyProfiler.
