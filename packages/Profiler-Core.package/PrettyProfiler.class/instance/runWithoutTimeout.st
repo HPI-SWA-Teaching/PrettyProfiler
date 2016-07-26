@@ -1,4 +1,4 @@
-as yet unclassified
+run
 runWithoutTimeout
 	
 	BetterMessageTally spyOn: self block.

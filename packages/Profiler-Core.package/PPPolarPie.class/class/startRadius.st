@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 startRadius
 
 	^ self radiusStepSize * 3.0

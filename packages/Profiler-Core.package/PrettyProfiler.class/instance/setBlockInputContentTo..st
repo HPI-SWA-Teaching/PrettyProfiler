@@ -1,4 +1,4 @@
-as yet unclassified
+layout
 setBlockInputContentTo: aString
 
 	blockInput setText: aString.
