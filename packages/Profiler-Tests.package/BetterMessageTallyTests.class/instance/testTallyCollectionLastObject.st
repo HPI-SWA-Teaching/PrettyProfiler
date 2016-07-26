@@ -1,8 +1,8 @@
 as yet unclassified
 testTallyCollectionLastObject
 
-	BetterMessageTally spyOn: PrettyProfiler testBlock.
+	"BetterMessageTally spyOn: PrettyProfiler testBlock.
 	self
 		assert: BetterMessageTally tallyObjectCollection last tallyChildren isEmpty
 		equals: true
-		description: 'The last tallyObject in collection has children, so it is not really the last object'.
+		description: 'The last tallyObject in collection has children, so it is not really the last object'."
