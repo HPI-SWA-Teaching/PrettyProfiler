@@ -1,3 +1,3 @@
-as yet unclassified
+run
 runButtonLabel
 	^ self class startText

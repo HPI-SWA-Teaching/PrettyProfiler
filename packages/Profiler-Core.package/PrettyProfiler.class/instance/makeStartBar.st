@@ -1,4 +1,4 @@
-as yet unclassified
+make
 makeStartBar 
 	runButton := self makeRunButton.
 	blockInput := self makeBlockInput.

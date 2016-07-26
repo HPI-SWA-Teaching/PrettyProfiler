@@ -1,4 +1,4 @@
-as yet unclassified
+initialization
 initialize
 	| tempBar optionBar hListSelector pieSelector tabControls tabbedView content |
 	super initialize.

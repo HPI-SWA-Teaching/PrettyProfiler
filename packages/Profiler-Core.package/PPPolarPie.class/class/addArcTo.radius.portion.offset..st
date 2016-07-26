@@ -1,4 +1,4 @@
-as yet unclassified
+geometry
 addArcTo: vertices radius: radius portion: portion offset: offset
 
 	| step steps |

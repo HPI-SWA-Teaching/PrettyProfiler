@@ -1,3 +1,3 @@
-as yet unclassified
+text
 stopText 
 	^'Stop Profiling'
