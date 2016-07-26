@@ -9,12 +9,11 @@
 		"tallyObjectCollection" : "MW 6/29/2016 16:50",
 		"tallySendsTo:inBlock:showTree:" : "MW 5/24/2016 11:10" },
 	"instance" : {
-		"calculateTallyObjectForTotal:totalTime:tallyParent:" : "hf 7/18/2016 15:20",
+		"calculateTallyObjectForTotal:totalTime:tallyParent:" : "hf 7/26/2016 11:05",
 		"copyWithTally:" : "MW 5/10/2016 17:41",
 		"rootMakeForTotal:totalTime:" : "MW 7/18/2016 14:50",
 		"sonsOver" : "MW 5/24/2016 12:07",
 		"species" : "MW 5/10/2016 17:42",
-		"spyEvery:on:" : "hf 7/18/2016 15:20",
 		"tallyPath:by:" : "MW 5/10/2016 17:43",
 		"tallyPath:in:by:" : "MW 5/12/2016 11:49",
 		"treeMakeForTotal:totalTime:tallyExact:parentTally:" : "MW 7/18/2016 15:02" } }
