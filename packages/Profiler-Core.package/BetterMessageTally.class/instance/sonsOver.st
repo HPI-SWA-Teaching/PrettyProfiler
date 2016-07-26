@@ -10,7 +10,7 @@ sonsOver
 		hereTally := hereTally - son tally.
 		son tally > 1].
 	hereTally > 1 ifTrue:
-		[last := BetterMessageTally new class: class method: method nesting: blockNesting.
+		[last := self class new class: class method: method nesting: blockNesting.
 		 last process: process.
 		 last reportOtherProcesses: reportOtherProcesses.
 		 ^sons copyWith: (last primitives: hereTally)].

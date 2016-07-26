@@ -14,7 +14,7 @@ tallyPath: context in: aProcess by: count
 	
 	"Add new child if needed"
 	path ifNil:
-		[path := BetterMessageTally new
+		[path := self class new
 					class: context receiver class method: aMethod nesting: nesting;
 					process: aProcess;
 					reportOtherProcesses: reportOtherProcesses;

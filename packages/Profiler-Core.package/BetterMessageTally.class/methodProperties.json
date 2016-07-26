@@ -10,10 +10,10 @@
 		"tallySendsTo:inBlock:showTree:" : "MW 5/24/2016 11:10" },
 	"instance" : {
 		"calculateTallyObjectForTotal:totalTime:tallyParent:" : "hf 7/26/2016 11:05",
-		"copyWithTally:" : "MW 5/10/2016 17:41",
+		"copyWithTally:" : "hf 7/26/2016 11:14",
 		"rootMakeForTotal:totalTime:" : "MW 7/18/2016 14:50",
-		"sonsOver" : "MW 5/24/2016 12:07",
-		"species" : "MW 5/10/2016 17:42",
-		"tallyPath:by:" : "MW 5/10/2016 17:43",
-		"tallyPath:in:by:" : "MW 5/12/2016 11:49",
+		"sonsOver" : "hf 7/26/2016 11:15",
+		"species" : "hf 7/26/2016 11:22",
+		"tallyPath:by:" : "hf 7/26/2016 11:22",
+		"tallyPath:in:by:" : "hf 7/26/2016 11:22",
 		"treeMakeForTotal:totalTime:tallyExact:parentTally:" : "MW 7/18/2016 15:02" } }
