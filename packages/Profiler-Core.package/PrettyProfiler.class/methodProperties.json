@@ -2,14 +2,15 @@
 	"class" : {
 		"defaultBlock" : "MW 7/26/2016 15:52",
 		"isTallyRunning" : "MW 7/26/2016 15:52",
-		"profileThis:" : "MW 6/29/2016 11:54",
+		"profileThis:" : "MW 7/26/2016 19:10",
 		"startText" : "MW 7/26/2016 15:52",
 		"stopText" : "MW 7/26/2016 15:52",
 		"testBlock" : "MW 7/26/2016 15:52" },
 	"instance" : {
 		"addContextMenu" : "MW 7/26/2016 15:39",
-		"block" : "MW 7/26/2016 13:22",
+		"block" : "MW 7/26/2016 17:32",
 		"clearDetailArea" : "MW 7/26/2016 15:39",
+		"detailArea" : "MW 7/26/2016 17:44",
 		"initialize" : "MW 7/26/2016 15:39",
 		"makeBlockInput" : "MW 7/26/2016 13:23",
 		"makeOptionBar" : "MW 7/26/2016 13:23",
