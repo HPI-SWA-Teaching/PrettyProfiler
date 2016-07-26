@@ -3,6 +3,8 @@ initialize
 	| tabbedView content |
 	super initialize.
 
+	self addContextMenu.
+
 	self makeResultContainers.
 	tabbedView := self makeTabbedView: (self makeTabControls).
 	self makeSplitView: tabbedView.
