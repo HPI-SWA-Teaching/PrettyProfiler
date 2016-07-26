@@ -1,6 +1,6 @@
 state
 toggleProfiling
 
-	self isTallyRunning
+	self class isTallyRunning
 		ifTrue: [self stopProfiling]
 		ifFalse: [self startProfiling]

@@ -1,3 +1,3 @@
 block
 defaultBlock 
-	^ [[Sensor peekPosition y>0] whileTrue: [World doOneCycle]]
+	^ [[self isTallyRunning] whileTrue: [World doOneCycle]]

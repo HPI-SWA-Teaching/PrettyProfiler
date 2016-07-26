@@ -1,6 +1,7 @@
 {
 	"class" : {
-		"defaultBlock" : "Noel 6/17/2016 17:24",
+		"defaultBlock" : "hf 7/26/2016 14:35",
+		"isTallyRunning" : "hf 7/26/2016 14:34",
 		"profileThis:" : "MW 6/29/2016 11:54",
 		"startText" : "Noel 5/12/2016 02:27",
 		"stopText" : "Noel 5/12/2016 02:28",
@@ -10,7 +11,6 @@
 		"block" : "MW 7/26/2016 13:22",
 		"clearDetailArea" : "LL 7/2/2016 16:17:39.675011",
 		"initialize" : "MW 7/26/2016 13:23",
-		"isTallyRunning" : "hf 7/18/2016 15:21",
 		"makeBlockInput" : "MW 7/26/2016 13:23",
 		"makeOptionBar" : "MW 7/26/2016 13:23",
 		"makeResultContainers" : "MW 7/26/2016 13:23",
@@ -26,6 +26,6 @@
 		"setBlockInputContentTo:" : "MW 7/26/2016 13:24",
 		"startProfiling" : "MW 7/26/2016 13:24",
 		"stopProfiling" : "MW 7/26/2016 13:24",
-		"toggleProfiling" : "AM 7/2/2016 15:31",
+		"toggleProfiling" : "hf 7/26/2016 14:34",
 		"updateDetailArea:" : "Noel 6/17/2016 20:09",
 		"updateResults:" : "MW 7/26/2016 13:24" } }
