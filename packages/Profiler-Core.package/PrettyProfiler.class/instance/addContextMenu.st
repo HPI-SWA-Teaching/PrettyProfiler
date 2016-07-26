@@ -7,7 +7,7 @@ SmalltalkEditor compile: 'prettyProfileIt
 PluggableTextMorph compile: 'prettyProfileIt
   self handleEdit: [textMorph editor prettyProfileIt]'.
 
-StringHolder compile: 'yellowButtonMenuItems
+StringHolder class compile: 'yellowButtonMenuItems
 	"Returns the standard yellow button menu items"
 	^{
 			#-.
