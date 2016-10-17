@@ -1,4 +1,4 @@
-# PrettyProfiler [![Build Status](https://api.travis-ci.org/HPI-SWA-Teaching/SWT16-Project-13.svg)](https://travis-ci.org/HPI-SWA-Teaching/SWT16-Project-13) [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/SWT16-Project-13/badge.svg?branch=team13)](https://coveralls.io/github/HPI-SWA-Teaching/SWT16-Project-13?branch=team13)
+# PrettyProfiler [![Build Status](https://api.travis-ci.org/HPI-SWA-Teaching/PrettyProfiler.svg)](https://travis-ci.org/HPI-SWA-Teaching/PrettyProfiler) [![Coverage Status](https://coveralls.io/repos/github/HPI-SWA-Teaching/PrettyProfiler/badge.svg?branch=team13)](https://coveralls.io/github/HPI-SWA-Teaching/PrettyProfiler?branch=team13)
 
 ![PrettyProfiler Logo](/PrettyProfilerLogo.png?raw=true "PrettyProfiler Logo")
 
